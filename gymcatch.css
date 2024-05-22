@@ -1,0 +1,104 @@
+:root {
+/*
+* Colors
+*/
+--gc-highlight-color: #19296c;
+--gc-ok-color: #f9c172;
+--gc-error-color: #8f044c;
+--gc-warning-color: #8f5102;
+--gc-foreground-color: #21252b;
+--gc-foreground-secondary-color: #616165;
+--gc-disabled-color: #767676;
+--gc-background-color: #F0EEEA;
+--gc-background-highlight-color: #FFBAD4;
+
+/*
+* Fonts
+*/
+--gc-font-family: Arial, sans-serif;
+--gc-header-font-family: var(--gc-font-family);
+--gc-font-size: 13px;
+--gc-font-size-small: 0.85em;
+--gc-font-size-h1: 1.4em;
+--gc-font-size-h2: 1.3em;
+--gc-font-size-h3: 1.05em;
+--gc-font-size-h4: 1em;
+
+/*
+* Border
+*/
+--gc-border-radius: 5px;
+--gc-border-color: var(--gc-foreground-secondary-color);
+
+/**
+* Buttons
+*/
+--gc-button-border-radius: var(--gc-border-radius);
+--gc-button-disabled-background-color: gray;
+--gc-button-disabled-border-color: transparent;
+
+/**
+* Forms
+*/
+--gc-control-border-radius: var(--gc-border-radius);
+
+/**
+* Alerts
+*/
+--gc-alert-color: white;
+--gc-alert-code-color: var(--gc-foreground-secondary-color);
+--gc-alert-code-font-size: var(--gc-font-size);
+--gc-alert-background-color: var(--gc-warning-color);
+--gc-alert-border-radius: var(--gc-border-radius);
+
+/**
+* Confirmation
+*/
+--gc-confirmation-border-radius: var(--gc-border-radius);
+--gc-confirmation-color: white;
+--gc-confirmation-background-color: var(--gc-highlight-color);
+
+/**
+* Modal
+*/
+--gc-modal-border-radius: var(--gc-border-radius);
+--gc-modal-border-color: var(--gc-foreground-secondary-color);
+--gc-modal-background-color: var(--gc-background-color);
+--gc-modal-overlay-background-color: rgba(10, 10, 10, 0.45);
+
+/*
+* Messages
+*/
+--gc-conversation-card-unread-color: #aaffee;
+--gc-conversation-card-time-color: gray;
+--gc-message-card-border-color: lightgray;
+
+/*
+* Notifications
+*/
+--gc-notification-card-unread-color: #aaffee;
+--gc-notification-card-time-color: lightgray;
+
+/*
+* Table
+*/
+--gc-table-header-background-color: var(--gc-background-highlight-color);
+--gc-table-header-color: #222222;
+
+/**
+* Tooltip
+*/
+--gc-tooltip-icon-color: #8696A8;
+--gc-tooltip-font-size: 10px;
+--gc-tooltip-content-font-size: 11px;
+--gc-tooltip-border-color: #DFDFDF;
+
+/**
+* Calendar control
+*/
+--gc-calendar-control-range-background-color: #Ff1de9;
+
+/*
+* Activity indicator
+*/
+--gc-activity-indicator-background-color: rgba(1, 1, 1, 0.65); }
